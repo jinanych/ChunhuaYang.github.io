@@ -1,0 +1,109 @@
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-family:  Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+#sidebar{
+	position: fixed;
+	width:250px;
+	background: #90AEC5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+#sidebar-inner{
+  position: relative;
+  min-height: 100%;
+}
+#profile {
+	text-align: center;
+	padding: 30px 10px;
+	position: relative;
+}
+
+#profile .portrate {
+	width: 200px;
+	margin: 0 auto;
+	height: 200px;
+}
+
+
+#profile .title h2 {
+	font-size: 23px;
+	font-weight: 300;
+	color: #fff;
+	margin: 0px 0 10px 0;
+}
+
+#profile .title h3 {
+	font-size: 10px;
+	font-weight: 300;
+	color: black;
+	margin: 0px 0 10px 0;
+}
+
+#main-nav {
+	position: relative;
+	text-align: left;
+	width: 100%;
+	padding-bottom: 0;
+
+}
+#main {
+	position: absolute;
+	left: 250px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fefefe;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.fac-page {
+	overflow:hidden;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	bottom: 0;
+	width: 85%;
+	background-color: #f7f7f7;
+	-webkit-overflow-scrolling: touch;
+}
+.home {
+	overflow:scroll;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	bottom: 0;
+	z-index: 0;
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.pageheader {
+	background: #f3f3f3;
+	position: relative;
+	padding: 0px 10 25px 0;
+}
+.headercontent .title {
+	font-size: 50px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 0px 0;
+	color:#2583ad
+}
+.headercontent .title.noborder{
+	border:none;
+}
+.headercontent .subtitle {
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 10px 0;
+	padding: 5px 0;
+}
+
+.headercontent .subtitle h3 {
+	margin: 0;
+	padding: 0;
+}
+.section-container {
+	padding: 0 5%;
+}
+
