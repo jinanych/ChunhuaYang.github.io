@@ -28,14 +28,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 
 
 #profile .title h2 {
-	font-size: 23px;
+	font-size: 21px;
 	font-weight: 300;
 	color: #fff;
 	margin: 0px 0 10px 0;
 }
 
 #profile .title h3 {
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: 300;
 	color: black;
 	margin: 0px 0 10px 0;
@@ -89,19 +89,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	border-bottom: 1px solid #ccc;
 	padding: 0 0 0px 0;
 	color:#2583ad
-}
-.headercontent .title.noborder{
-	border:none;
-}
-.headercontent .subtitle {
-	border-bottom: 1px solid #ccc;
-	margin: 0 0 10px 0;
-	padding: 5px 0;
-}
-
-.headercontent .subtitle h3 {
-	margin: 0;
-	padding: 0;
 }
 .section-container {
 	padding: 0 5%;
